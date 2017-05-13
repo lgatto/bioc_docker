@@ -44,4 +44,8 @@ containers: # FIXME (?) rename this to 'images' (?)
         parent: bioconductor/mscore
         biocViews:
             - Proteomics
-            - MassSpectrometryData        
+            - MassSpectrometryData
+    RforProteomics:
+	parent: bioconductor/proteomics
+    spatialproteomics:
+        parent: bioconductor/mscore
