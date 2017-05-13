@@ -46,6 +46,6 @@ containers: # FIXME (?) rename this to 'images' (?)
             - Proteomics
             - MassSpectrometryData
     RforProteomics:
-	parent: bioconductor/proteomics
+        parent: bioconductor/proteomics
     spatialproteomics:
         parent: bioconductor/mscore
