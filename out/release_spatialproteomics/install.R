@@ -3,7 +3,7 @@
 
 library(BiocInstaller) # shouldn't be necessary
 
-pkgs <- c("pRoloc", "pRolocdata", pRolocGUI")
+pkgs <- c("pRoloc", "pRolocdata", "pRolocGUI")
 
 biocLite(pkgs, dependencies = TRUE)
 
